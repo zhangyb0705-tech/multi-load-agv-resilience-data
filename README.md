@@ -45,4 +45,4 @@ Anonymized benchmark data for resilience-oriented multi-load AGV scheduling
 
 ## License
 
-The dataset and accompanying documentation in this repository are licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/) (`CC-BY-4.0`). Users may share and adapt the material, including for commercial purposes, provided that appropriate credit is given, a link to the license is supplied, and any changes are indicated. See `LICENSE` for the attribution notice.
+The dataset and accompanying documentation in this repository are licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/) (`CC-BY-4.0`). Users may share and adapt the material, including for commercial purposes, provided that appropriate credit is given, a link to the license is supplied, and any changes are indicated. See `LICENSE` for the complete legal text and `CITATION.cff` for the dataset authors and suggested citation metadata.

@@ -1,0 +1,29 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Hejian Liu, Yibin Zhang, Xuzhen Wu, Zailiang Chen,
+Daiwen Zhang, and Yue Gao.
+
+The dataset and accompanying documentation in this repository are licensed
+under the Creative Commons Attribution 4.0 International License.
+
+You are free to share (copy and redistribute) and adapt (remix, transform,
+and build upon) this material for any purpose, including commercial use,
+provided that you give appropriate credit, provide a link to the license,
+and indicate whether changes were made. You may not apply legal terms or
+technological measures that legally restrict others from doing anything
+the license permits.
+
+Canonical license URL:
+https://creativecommons.org/licenses/by/4.0/
+
+Full legal code:
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+SPDX-License-Identifier: CC-BY-4.0
+
+Suggested attribution:
+
+Liu, H.; Zhang, Y.; Wu, X.; Chen, Z.; Zhang, D.; and Gao, Y. (2026).
+"Anonymized benchmark data for resilience-oriented multi-load AGV
+scheduling," version 1.0.2, licensed under CC BY 4.0. Available at:
+https://github.com/zhangyb0705-tech/multi-load-agv-resilience-data

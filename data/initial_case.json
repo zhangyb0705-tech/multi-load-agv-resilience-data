@@ -16,7 +16,8 @@
     },
     "handling": {
       "loading_or_unloading_time_s": 10,
-      "empty_pallet_tare_mass_kg": 15
+      "empty_pallet_tare_mass_kg": 15,
+      "additional_acceleration_deceleration_time_per_stop_s": 5
     },
     "unloading_points": {
       "capacity_per_point_pallet_positions": 5,
@@ -47,7 +48,8 @@
   },
   "source_scope": {
     "manuscript_section": "6. Experimental Design",
-    "source_chapter_section": "4.5 Results and Analysis",
+    "source_chapter_scope": "Chapter 4 model assumptions and results sections",
+    "source_note": "The 5 s stop delay is stated in both surviving source Chapter 4 materials but is not repeated explicitly in the final manuscript experimental-design paragraph.",
     "not_available_in_surviving_source_materials": [
       "individual cargo weights",
       "complete order-by-cargo demand matrix",

@@ -31,6 +31,7 @@ def validate_initial_case(case: dict) -> None:
     assert problem["handling"] == {
         "loading_or_unloading_time_s": 10,
         "empty_pallet_tare_mass_kg": 15,
+        "additional_acceleration_deceleration_time_per_stop_s": 5,
     }
     assert problem["unloading_points"]["capacity_per_point_pallet_positions"] == 5
     assert problem["urgent_order_insertion"]["priority_sequence"] == [3, 2, 1, 1, 2, 3]

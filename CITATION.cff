@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this dataset, please cite the related manuscript and this repository."
 title: "Anonymized benchmark data for resilience-oriented multi-load AGV scheduling"
 type: dataset
-version: 1.0.0
+version: 1.0.1
 date-released: 2026-09-05
 authors:
   - family-names: Liu

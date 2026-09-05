@@ -1,6 +1,6 @@
 {
   "title": "Anonymized benchmark data for resilience-oriented multi-load AGV scheduling",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "release_date": "2026-09-05",
   "language": "en",
   "resource_type": "dataset",
@@ -30,6 +30,10 @@
     {
       "path": "data/strategy_results.json",
       "role": "aggregate experimental results"
+    },
+    {
+      "path": "DATA_INVENTORY.md",
+      "role": "data availability and completeness audit"
     }
   ]
 }

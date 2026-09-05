@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0",
+  "table": "Table 3",
+  "title": "Comparison of resilience indicators under six priority strategies",
+  "units": {
+    "total_handling_time_s": "s",
+    "throughput_pallets_per_min": "pallets/min",
+    "urgent_order_insertion_time_s": "s",
+    "maximum_decline_percent": "%",
+    "priority_task_duration_s": "s",
+    "normalized_load_balance_score": "dimensionless"
+  },
+  "records": [
+    {
+      "priority_weight": "exponential",
+      "allocation_method": "probabilistic_selection",
+      "total_handling_time_s": 22182.4,
+      "throughput_pallets_per_min": 3.14,
+      "urgent_order_insertion_time_s": 4333.5,
+      "maximum_decline_percent": 6.4,
+      "priority_task_duration_s": 13572.9,
+      "normalized_load_balance_score": -1.668
+    },
+    {
+      "priority_weight": "exponential",
+      "allocation_method": "reward_selection",
+      "total_handling_time_s": 21672.5,
+      "throughput_pallets_per_min": 3.22,
+      "urgent_order_insertion_time_s": 3283.9,
+      "maximum_decline_percent": 5.9,
+      "priority_task_duration_s": 12377.7,
+      "normalized_load_balance_score": -1.668
+    },
+    {
+      "priority_weight": "linear",
+      "allocation_method": "probabilistic_selection",
+      "total_handling_time_s": 22338.7,
+      "throughput_pallets_per_min": 3.12,
+      "urgent_order_insertion_time_s": 5086.2,
+      "maximum_decline_percent": 2.2,
+      "priority_task_duration_s": 13876.5,
+      "normalized_load_balance_score": -0.816
+    },
+    {
+      "priority_weight": "linear",
+      "allocation_method": "reward_selection",
+      "total_handling_time_s": 21375.8,
+      "throughput_pallets_per_min": 3.26,
+      "urgent_order_insertion_time_s": 4018.6,
+      "maximum_decline_percent": 8.1,
+      "priority_task_duration_s": 11379.1,
+      "normalized_load_balance_score": -0.715
+    },
+    {
+      "priority_weight": "logarithmic",
+      "allocation_method": "probabilistic_selection",
+      "total_handling_time_s": 22244.5,
+      "throughput_pallets_per_min": 3.13,
+      "urgent_order_insertion_time_s": 2888.6,
+      "maximum_decline_percent": 4.1,
+      "priority_task_duration_s": 12581.0,
+      "normalized_load_balance_score": -0.518
+    },
+    {
+      "priority_weight": "logarithmic",
+      "allocation_method": "reward_selection",
+      "total_handling_time_s": 21813.3,
+      "throughput_pallets_per_min": 3.20,
+      "urgent_order_insertion_time_s": 3673.9,
+      "maximum_decline_percent": 2.7,
+      "priority_task_duration_s": 13150.0,
+      "normalized_load_balance_score": -1.773
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite the related manuscript and this repository."
+title: "Anonymized benchmark data for resilience-oriented multi-load AGV scheduling"
+type: dataset
+version: 1.0.0
+date-released: 2026-09-05
+authors:
+  - family-names: Liu
+    given-names: Hejian
+  - family-names: Zhang
+    given-names: Yibin
+  - family-names: Wu
+    given-names: Xuzhen
+  - family-names: Chen
+    given-names: Zailiang
+  - family-names: Zhang
+    given-names: Daiwen
+  - family-names: Gao
+    given-names: Yue
+keywords:
+  - multi-load AGV
+  - warehouse scheduling
+  - urgent order insertion
+  - resilience
+  - Soft Actor-Critic

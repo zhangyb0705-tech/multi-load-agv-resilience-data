@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "case_id": "agv-50c-25o-9v-urgent-after-12",
+  "data_status": "anonymized_initial_benchmark",
+  "problem": {
+    "cargo_type_count": 50,
+    "normal_order_count": 25,
+    "demand_per_cargo_type_pallets": {
+      "minimum": 15,
+      "maximum": 50
+    },
+    "agvs": {
+      "count": 9,
+      "maximum_load_kg": 1800,
+      "travel_speed_m_per_s": 1
+    },
+    "handling": {
+      "loading_or_unloading_time_s": 10,
+      "empty_pallet_tare_mass_kg": 15
+    },
+    "unloading_points": {
+      "capacity_per_point_pallet_positions": 5,
+      "capacity_counts_full_and_empty_pallets_together": true
+    },
+    "urgent_order_insertion": {
+      "trigger": "immediately_after_completion_of_normal_order_12",
+      "completed_normal_orders_before_insertion": 12,
+      "priority_sequence": [3, 2, 1, 1, 2, 3],
+      "priority_scale": {
+        "ordinary": 0,
+        "highest": 3
+      }
+    }
+  },
+  "sac_training": {
+    "discount_factor": 0.99,
+    "soft_update_coefficient": 0.005,
+    "initial_entropy_temperature": 0.2,
+    "learning_rate": 0.0003
+  },
+  "computing_environment": {
+    "simulation_language": "Python 3.10",
+    "operating_system": "Windows 10",
+    "processor": "13th Gen Intel Core i5-13400",
+    "processor_frequency_ghz": 2.5,
+    "memory_gb": 32
+  },
+  "source_scope": {
+    "manuscript_section": "6. Experimental Design",
+    "source_chapter_section": "4.5 Results and Analysis",
+    "not_available_in_surviving_source_materials": [
+      "individual cargo weights",
+      "complete order-by-cargo demand matrix",
+      "exact warehouse coordinates",
+      "random seeds",
+      "trained model checkpoints",
+      "raw training arrays",
+      "complete simulation event log"
+    ]
+  }
+}

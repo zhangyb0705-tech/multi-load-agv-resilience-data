@@ -1,0 +1,35 @@
+{
+  "title": "Anonymized benchmark data for resilience-oriented multi-load AGV scheduling",
+  "version": "1.0.0",
+  "release_date": "2026-09-05",
+  "language": "en",
+  "resource_type": "dataset",
+  "description": "An anonymized initial benchmark configuration and aggregate experimental results for multi-load AGV warehouse unloading with urgent-order insertion.",
+  "related_manuscript": "Resilience-Oriented Scheduling of Multi-Load AGVs for Warehouse Unloading with Urgent Order Insertion: A Soft Actor-Critic Approach",
+  "creators": [
+    "Hejian Liu",
+    "Yibin Zhang",
+    "Xuzhen Wu",
+    "Zailiang Chen",
+    "Daiwen Zhang",
+    "Yue Gao"
+  ],
+  "keywords": [
+    "multi-load AGV",
+    "warehouse scheduling",
+    "urgent order insertion",
+    "resilience",
+    "Soft Actor-Critic",
+    "anonymized benchmark"
+  ],
+  "files": [
+    {
+      "path": "data/initial_case.json",
+      "role": "initial benchmark configuration"
+    },
+    {
+      "path": "data/strategy_results.json",
+      "role": "aggregate experimental results"
+    }
+  ]
+}
